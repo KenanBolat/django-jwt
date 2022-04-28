@@ -1,1 +1,4 @@
 Django~=4.0.4
+jsonify~=0.5
+PyJWT~=2.3.0
+djangorestframework~=3.13.1
