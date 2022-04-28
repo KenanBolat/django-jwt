@@ -9,7 +9,11 @@ class User(AbstractUser):
     name = models.CharField(max_length=255, blank=True, null=True)
     email = models.EmailField(unique=True)
     password = models.CharField(max_length=255)
+
+    first_name = None
+    last_name = None
     username = None  # Remove username field
+
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
 
